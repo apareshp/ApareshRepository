@@ -25,6 +25,7 @@ public class Run {
 		prop.load(input);
 		String surl=prop.getProperty("Url");
 		String sFirstName=prop.getProperty("FirstName");
+		System.out.println("Hello");
 		Browser obj=new Browser();
 		driver=obj.launchBrowser("chrome");
 		driver.get(surl);
